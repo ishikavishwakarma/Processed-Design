@@ -2338,7 +2338,7 @@ input:focus::placeholder, textarea:focus::placeholder {
     padding-right: 16px;
   }
 }
-@media only screen and (min-width: 767px) and (max-width: 1540px) {
+@media only screen and (min-width: 767px) and (max-width: 3540px) {
   .h3_header-logo {
     width: 50%;
   }
@@ -4194,7 +4194,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 .h3_banner-meta-rating {
   position: absolute;
   left: -70px;
-  bottom: 145px;
+  bottom: 220px;
   background: #fff;
   border-radius: 10px;
   padding: 25px 30px 25px;
@@ -5687,7 +5687,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 .section-area-3 .section-text {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   color: rgba(30, 30, 30, 0.7);
@@ -15087,14 +15087,8 @@ justify-content: space-between;
   line-height: 20px;
 }
 
-.h2_teacher-item:hover .h2_teacher-content {
-  opacity: 1;
-  visibility: visible;
-  bottom: 30px;
-}
-.h2_teacher-item:hover .h2_teacher-img img {
-  transform: scale(1.2);
-}
+
+
 
 .h3_teacher-img {
   position: relative;
