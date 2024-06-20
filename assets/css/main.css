@@ -20150,3 +20150,7 @@ justify-content: space-between;
 .h3_footer-area .footer-logo{
   width: 60%;
 }
+
+.faq-sec-wrapper .main-cont p {
+  color: white;
+}
