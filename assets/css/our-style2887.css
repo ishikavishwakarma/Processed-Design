@@ -226,15 +226,16 @@ html::-webkit-scrollbar-thumb {
 }
 .modal .modalClose {
   position: absolute;
-  top: 20px;
-  right: -40px;
+  top: 0px;
+  right: 0px;
   background: transparent;
-  font-size: 2em;
+  font-size: 3em;
   color: #fff;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 5px;
   border: none;
+  z-index: 99999;
   outline: none;
 }
 

@@ -1028,6 +1028,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	updateSidebarPosition(); // Initial check
 });
+document.getElementById('modalClose').addEventListener('click', function(e) {
+	document.getElementsByClassName('model').style.display="none"
+});
+
 
 //scroll button cousrse
 document.getElementById('courses').addEventListener('click', function(e) {
