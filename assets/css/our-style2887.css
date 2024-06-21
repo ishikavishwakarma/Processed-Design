@@ -1112,7 +1112,7 @@ html::-webkit-scrollbar-thumb {
 }
 .home-page .home-page-wrap .learning-opty {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -1121,7 +1121,7 @@ html::-webkit-scrollbar-thumb {
   background-position: center bottom;
 }
 .home-page .home-page-wrap .learning-opty .l-o-wrapper {
-  padding-top: 30px;
+  padding-top: 20px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1139,7 +1139,7 @@ html::-webkit-scrollbar-thumb {
 }
 .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h1 {
   text-align: center;
-  font-size: 32px;
+  font-size: 27px;
   color: #ffff;
 }
 .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h3 {
@@ -1462,6 +1462,9 @@ html::-webkit-scrollbar-thumb {
 .home-page .home-page-wrap .steps-grwt-section {
   width: 100%;
   height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #fff;
 }
 .home-page .home-page-wrap .steps-grwt-section .steps-grwt-wrapper {
@@ -3267,6 +3270,29 @@ html::-webkit-scrollbar-thumb {
     gap: 50px;
    
   }
+  .home-page .home-page-wrap .steps-grwt-section .steps-grwt-wrapper .steps-cont {
+    gap: 45px;
+  }
+  .home-page .home-page-wrap .steps-grwt-section {
+    height: 60vh;
+    padding-top: 3vw;
+  }
+  .home-page .home-page-wrap .growth-add-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #ffff;
+  }
+  .home-page .home-page-wrap .learning-opty{
+    padding-top:7px ;
+    padding-bottom:7px ;
+  }
   .home-page .home-page-wrap .plant-section .plant-section-wrapper .left-cont img {
     height: 100%;
     width: 100%;
@@ -3274,7 +3300,24 @@ html::-webkit-scrollbar-thumb {
     left: 80px;
   }
 }
+@media only screen and  (max-width: 475px) {
+  .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #ffff;
+  }
+}
+@media only screen and  (min-width: 1090px) and (max-width:2800px ) {
+  .home-page .home-page-wrap .book-section {
+    height: 82vh;
+  }
+}
 @media only screen and (max-width: 1090px) {
+  .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffff;
+  }
   .nav-bar {
     height: 80px;
   }
@@ -3451,7 +3494,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 3em;
   }
   .home-page .home-page-wrap .learning-opty {
-    height: 100vh;
+    height: 90vh;
   }
   .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont {
     padding: 15px;
@@ -3608,7 +3651,8 @@ html::-webkit-scrollbar-thumb {
     font-size: 0.7em;
   }
   .home-page .home-page-wrap .growth-add-section {
-    height: 50vh;
+    height: 38vh;
+    padding-top: 5px;
   }
   .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .heading {
     font-size: 1.5em;
@@ -3633,13 +3677,13 @@ html::-webkit-scrollbar-thumb {
     font-size: 1em;
   }
   .home-page .home-page-wrap .steps-grwt-section {
-    height: 50vh;
+    height: 40vh;
   }
   .home-page .home-page-wrap .steps-grwt-section .steps-grwt-wrapper .heading {
     font-size: 1.5em;
   }
   .home-page .home-page-wrap .steps-grwt-section .steps-grwt-wrapper .steps-cont {
-    gap: 50px;
+    gap: 35px;
   }
   .home-page .home-page-wrap .steps-grwt-section .steps-grwt-wrapper .steps-cont .step-bar {
     height: 4px;
@@ -4139,12 +4183,16 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
   }
 }
-@media (min-width: 1220px) and (max-width: 2552px) {
+@media (min-width: 1020px) and (max-width: 2552px) {
   .home-page .home-page-wrap .home-header .home-header-top .top-hd-bg::before {
     top: 300px;
     left: 10px;
   }
+  .home-page .home-page-wrap .learning-opty {
+    height: 100vh;
+  }
 }
+
 @media (max-width: 1220px) and (min-width: 992px) {
   .home-page .home-page-wrap .home-header .home-header-top .top-hd-bg::after {
     animation: none;

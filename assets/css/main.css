@@ -20142,7 +20142,7 @@ justify-content: space-between;
 .single-course .row .course_details-sidebar{
   width: 100%;
 }
-@media only screen and (min-width: 990px) and (max-width: 1544px) {
+@media only screen and (min-width: 990px) and (max-width: 2544px) {
   .single-course .row .course_details-sidebar{
     width: 25%;
   }
