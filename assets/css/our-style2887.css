@@ -4193,7 +4193,7 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 1220px) and (min-width: 992px) {
+@media (max-width: 1220px) and (min-width: 1020px) {
   .home-page .home-page-wrap .home-header .home-header-top .top-hd-bg::after {
     animation: none;
     rotate: 115deg;
