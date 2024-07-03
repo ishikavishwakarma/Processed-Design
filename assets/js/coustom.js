@@ -91,6 +91,11 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'animval3',
             start: 0,
             end: 25
+        },
+        {
+            id: 'animval4',
+            start: 0,
+            end: 75
         }
         ]
     },

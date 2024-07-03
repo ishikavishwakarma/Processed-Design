@@ -46,7 +46,8 @@ html::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb,
 html::-webkit-scrollbar-thumb {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(137, 176, 255)), color-stop(0.72, rgb(215, 122, 255)), color-stop(0.86, rgb(114, 208, 255)));
+  background-image: linear-gradient(to right bottom, #610df7, #6e11f5, #7916f2, #831bf0, #8c20ee, #8830f0, #843cf2, #8146f4, #7056f9, #5e63fc, #4d6dfd, #3b77fd);
+
 }
 
 .main-section {
@@ -117,7 +118,7 @@ html::-webkit-scrollbar-thumb {
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background-image: linear-gradient(#6978FF, #E16BFF);
+  /* background-image: linear-gradient(#6978FF, #E16BFF); */
   animation: gradrot var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   position: absolute;
@@ -488,7 +489,7 @@ html::-webkit-scrollbar-thumb {
 .footer-section {
   width: 100%;
   height: 50vh;
-  background: #010529;
+  background: #0f055a;
 }
 .footer-section .footeer-wrapper {
   width: 100%;
@@ -582,11 +583,11 @@ html::-webkit-scrollbar-thumb {
 
 .home-page {
   width: 100%;
-  background: #000528;
+
 }
 .home-page .home-page-wrap {
   width: 100%;
-  background: #000528;
+  background:#150b5f ;
 }
 .home-page .home-page-wrap .home-header {
   width: 100%;
@@ -634,7 +635,8 @@ html::-webkit-scrollbar-thumb {
   width: 1400px;
   height: 1400px;
   filter: blur(calc(var(--size) / 5));
-  background: linear-gradient(#277fcd, #718aff);
+ background-image: linear-gradient(to right bottom, #610df7, #6e11f5, #7916f2, #831bf0, #8c20ee, #8830f0, #843cf2, #8146f4, #7056f9, #5e63fc, #4d6dfd, #3b77fd); /* background: linear-
+  gradient(#277fcd, #718aff); */
   animation: gradrot var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   position: absolute;
@@ -1112,7 +1114,7 @@ html::-webkit-scrollbar-thumb {
 }
 .home-page .home-page-wrap .learning-opty {
   width: 100%;
-  height: 100vh;
+ height: fit-content;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -1397,12 +1399,11 @@ html::-webkit-scrollbar-thumb {
 .home-page .home-page-wrap .growth-add-section {
   width: 100%;
   height: 80vh;
-  background: #fff;
+  background-color: transparent;
 }
 .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper {
-  background: url("../images/why-growth-bg.png");
-  background-size: cover;
-  background-position: center;
+
+ background-color: transparent;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1443,7 +1444,10 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 170px;
+  gap: 10px;
+}
+.home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .grwt-add-cont .count-cont .grwt-text{
+  font-size: 10px;
 }
 .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .grwt-add-cont .count-cont {
   display: flex;
@@ -1599,14 +1603,14 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   width: 100%;
   height: 50%;
-  background: #000528;
+  background: #080425;
 }
-.home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h1 {
+.home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h5 {
   text-align: center;
   position: relative;
   z-index: 2;
-  text-transform: uppercase;
-  font-size: 3rem;
+  
+  font-size: 16px;
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1616,8 +1620,9 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   position: relative;
   z-index: 2;
-  text-transform: uppercase;
-  font-size: 3rem;
+
+  font-size: 46px;
+  font-weight: 700;
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1827,10 +1832,10 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   position: relative;
   flex-direction: column;
-  background: url("../images/we_best.png");
+
   background-size: cover;
   background-position: center top;
 }
@@ -1972,7 +1977,7 @@ html::-webkit-scrollbar-thumb {
 .home-page .home-page-wrap .testimonialt-section {
   width: 100%;
   height: 100vh;
-  background: #fff;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1986,7 +1991,7 @@ html::-webkit-scrollbar-thumb {
   position: relative;
 }
 .home-page .home-page-wrap .testimonialt-section .testimonial-wrapper .heading {
-  font-size: 4em;
+ 
   position: absolute;
   top: 100px;
   left: 100px;
@@ -2092,6 +2097,7 @@ html::-webkit-scrollbar-thumb {
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-color: #080425;
 }
 .home-page .home-page-wrap .book-section .imgLoader {
   position: fixed;
@@ -2681,6 +2687,7 @@ html::-webkit-scrollbar-thumb {
 .home-page .home-page-wrap .faq-section {
   width: 100%;
   min-height: 100vh;
+  background-color: #080425;
 }
 .home-page .home-page-wrap .faq-section .faq-sec-wrapper {
   width: 100%;
@@ -3264,6 +3271,31 @@ html::-webkit-scrollbar-thumb {
     transform: translateY(50px);
   }
 }
+.home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h5 {
+  font-size: 16px;
+}
+.home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+}
+@media only screen  and (min-width: 1199px) and (max-width: 2500px) {
+  .home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+}
 @media only screen and (min-width: 767px) and (max-width: 2867px) {
   .home-page .home-page-wrap .plant-section .plant-section-wrapper .right-cont {
    
@@ -3284,6 +3316,10 @@ html::-webkit-scrollbar-thumb {
     justify-content: center;
     width: 100%;
   }
+  .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .grwt-add-cont .count-cont .grwt-text{
+    font-size: 17px;
+    text-align: center;
+  }
   .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont h1 {
     text-align: center;
     font-size: 38px;
@@ -3292,6 +3328,7 @@ html::-webkit-scrollbar-thumb {
   .home-page .home-page-wrap .learning-opty{
     padding-top:7px ;
     padding-bottom:7px ;
+    height: 70vh;
   }
   .home-page .home-page-wrap .plant-section .plant-section-wrapper .left-cont img {
     height: 100%;
@@ -3306,10 +3343,25 @@ html::-webkit-scrollbar-thumb {
     font-size: 22px;
     color: #ffff;
   }
+  .home-page .home-page-wrap .learning-opty{
+   
+    height: 80vh;
+  }
+  .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .grwt-add-cont .count-cont .grwt-text{
+    font-size: 10px;
+  }
 }
 @media only screen and  (min-width: 1090px) and (max-width:2800px ) {
   .home-page .home-page-wrap .book-section {
     height: 82vh;
+  }
+  .home-page .home-page-wrap .learning-opty{
+    padding-top:7px ;
+    padding-bottom:7px ;
+    height: 90vh;
+  }
+  .home-page .home-page-wrap .growth-add-section .grwt-add-wrapper .grwt-add-cont .count-cont .grwt-text{
+    font-size: 17px;
   }
 }
 @media only screen and (max-width: 1090px) {
@@ -3317,6 +3369,11 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     font-size: 35px;
     color: #ffff;
+  }
+
+  .home-page .home-page-wrap .learning-opty{
+    
+    height: 70vh;
   }
   .nav-bar {
     height: 80px;
@@ -3342,7 +3399,7 @@ html::-webkit-scrollbar-thumb {
   .home-page .home-page-wrap .home-header .home-header-top .top-hd-bg::after {
     animation: none;
     rotate: 115deg;
-    background: #d971ff;
+  
   }
   .home-page .home-page-wrap .home-header .home-header-top .top-hd-bg::before {
     top: 214px;
@@ -3493,9 +3550,7 @@ html::-webkit-scrollbar-thumb {
   .home-page .home-page-wrap .video-section .video-section-wrapper .v-thumb .v-section-right span {
     font-size: 3em;
   }
-  .home-page .home-page-wrap .learning-opty {
-    height: 90vh;
-  }
+
   .home-page .home-page-wrap .learning-opty .l-o-wrapper .text-cont {
     padding: 15px;
   }
@@ -3724,9 +3779,7 @@ html::-webkit-scrollbar-thumb {
   .home-page .home-page-wrap .instructors-section {
     height: auto;
   }
-  .home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h1 {
-    font-size: 1.3rem;
-  }
+ 
   .home-page .home-page-wrap .instructors-section .instructor-wrapper .heading h2 {
     font-size: 1.3rem;
   }
@@ -4188,9 +4241,7 @@ html::-webkit-scrollbar-thumb {
     top: 300px;
     left: 10px;
   }
-  .home-page .home-page-wrap .learning-opty {
-    height: 100vh;
-  }
+ 
 }
 
 @media (max-width: 1220px) and (min-width: 1020px) {
