@@ -14620,6 +14620,7 @@ justify-content: space-between;
   position: relative;
   z-index: 9;
   margin-bottom: -120px;
+  background-color: #080425;
 }
 .cta-wrapper {
   background-color: var(--clr-theme-primary);

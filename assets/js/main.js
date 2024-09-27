@@ -521,8 +521,8 @@ const testimonialActive = new Swiper(".testimonial-active", {
 			spaceBetween: 20,
 		},
 		1800: {
-			slidesPerView: 5,
-			spaceBetween: 20,
+			slidesPerView: 4,
+			spaceBetween: 10,
 		}
 	}
 });

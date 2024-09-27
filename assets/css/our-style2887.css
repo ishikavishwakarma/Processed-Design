@@ -1405,7 +1405,7 @@ html::-webkit-scrollbar-thumb {
 
  background-color: transparent;
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3310,7 +3310,7 @@ html::-webkit-scrollbar-thumb {
     padding-top: 3vw;
   }
   .home-page .home-page-wrap .growth-add-section {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
